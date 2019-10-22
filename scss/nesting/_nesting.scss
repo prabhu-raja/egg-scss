@@ -1,0 +1,35 @@
+.spiderman {
+  padding: 1rem 2rem;
+
+  &-container{
+    background-color: #dbbebe;
+  }
+
+  &::before {
+    display: block;
+    content: url('../../images/spiderman-icon.png');
+  }
+  img {
+    transition: transform .8s ease-in-out;
+    &:hover {
+      transform: rotate(360deg);
+    }
+  }
+
+  .description {
+    color: lime;
+    text-align: center;
+    margin-top: 1rem;
+    .header {
+      font-size: 2rem;
+      a {
+        text-decoration: none;
+        &::after {
+          content: url('../../images/spiderman-ok.jpg');
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}

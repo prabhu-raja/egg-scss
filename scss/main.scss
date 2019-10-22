@@ -1,0 +1,11 @@
+/*
+* PARTIALS
+.red { color: red; }
+.red-dark { color:darken(red, 20%); }
+@import 'partials/partial-a';
+@import 'partials/partial-b';
+@import 'partials/partial-c';
+*/
+
+// * NESTING
+@import 'nesting/nesting'

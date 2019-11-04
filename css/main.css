@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*
 * PARTIALS
 .red { color: red; }
@@ -23,7 +22,8 @@
 /*
   * EXTENDS 🍟
 */
-.base,
+.base, .new {
+  color: red; }
+
 .new {
-  color: red;
-}
+  width: 20px; }

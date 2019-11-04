@@ -1,2 +1,5 @@
 .base {color: red;}
-.new { @extend .base}
+.new { 
+  width: 20px;;
+  @extend .base;
+}

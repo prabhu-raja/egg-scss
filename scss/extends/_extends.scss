@@ -1,4 +1,10 @@
-.base {color: red;}
+.base {
+  color: red;
+  &:hover { color: green;}
+  &::after {
+    content: '?';
+  }
+}
 .new { 
   width: 20px;;
   @extend .base;

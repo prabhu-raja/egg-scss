@@ -9,6 +9,6 @@
   }
 }
 .new { 
-  width: 20px;;
-  @extend .base;
+  width: 20px;
+  @extend .base-stuff;
 }

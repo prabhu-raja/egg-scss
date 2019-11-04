@@ -23,22 +23,20 @@
 /*
   * EXTENDS 🍟
 */
-.base,
-.new {
+.base {
   color: red;
 }
 
-.base:hover,
-.new:hover {
+.base:hover {
   color: green;
 }
 
-.base::after,
-.new::after {
+.base::after {
   content: '?';
 }
 
-.base-stuff {
+.base-stuff,
+.new {
   height: 5rem;
 }
 

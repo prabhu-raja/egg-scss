@@ -1,4 +1,4 @@
-%base {
+@mixin base {
   color: red;
   &:hover { color: green;}
   &::after {
@@ -6,9 +6,9 @@
   }
 }
 .cool {
-  @extend %base;
+  @include base();
 }
 .new { 
   width: 20px;
-  @extend %base;
+  @include base();
 }

@@ -1,5 +1,4 @@
 {
-  "editor.cursorBlinking": "expand",
   "workbench.colorCustomizations": {
     "activityBar.background": "#5a76b1",
     "activityBar.foreground": "#ffffff",
@@ -9,6 +8,9 @@
     "titleBar.activeBackground": "#3e4558",
     "titleBar.activeForeground": "#ffffff",
     "statusBar.foreground": "#ffffff",
-    "statusBar.background": "#345991fd"
-  }
+    "statusBar.background": "#345991fd",
+    "editorCursor.foreground": "#f7f306"
+  },
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 5
 }

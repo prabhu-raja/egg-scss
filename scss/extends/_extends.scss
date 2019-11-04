@@ -1,14 +1,14 @@
-.base {
+%base {
   color: red;
   &:hover { color: green;}
   &::after {
     content: '?';
   }
-  &-stuff {
-    height: 5rem;
-  }
+}
+.cool {
+  @extend %base;
 }
 .new { 
   width: 20px;
-  @extend .base-stuff;
+  @extend %base;
 }

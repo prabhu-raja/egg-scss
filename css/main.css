@@ -23,21 +23,19 @@
 /*
   * EXTENDS 🍟
 */
-.base {
+.cool,
+.new {
   color: red;
 }
 
-.base:hover {
+.cool:hover,
+.new:hover {
   color: green;
 }
 
-.base::after {
+.cool::after,
+.new::after {
   content: '?';
-}
-
-.base-stuff,
-.new {
-  height: 5rem;
 }
 
 .new {

@@ -38,6 +38,10 @@
   content: '?';
 }
 
+.base-stuff {
+  height: 5rem;
+}
+
 .new {
   width: 20px;
 }

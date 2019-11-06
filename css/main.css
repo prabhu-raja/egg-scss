@@ -22,56 +22,47 @@
 */
 /*
   * EXTENDS 🍟
+  @import 'extends/extends'
 */
-.captain-america,
-.medusa,
-.she-hulk {
-  background: linear-gradient(red, white, blue);
+/*
+ * ITERATE WITH FOR
+ */
+.order {
+  order: 1;
 }
 
-.doc-ock,
-.cheetah,
-.enchantress {
-  background: red;
+.order {
+  order: 2;
 }
 
-.doc-ock {
-  height: 20px;
-  width: 20px;
-  border: 1px solid green;
+.order {
+  order: 3;
 }
 
-.cheetah {
-  height: 20px;
-  width: 20px;
+.order {
+  order: 4;
 }
 
-.enchantress {
-  height: 20px;
-  width: 20px;
+.order {
+  order: 5;
 }
 
-.captain-america {
-  height: 20px;
-  width: 20px;
+.order {
+  order: 6;
 }
 
-.medusa {
-  height: 20px;
-  width: 20px;
+.order {
+  order: 7;
 }
 
-.she-hulk {
-  height: 20px;
-  width: 20px;
+.order {
+  order: 8;
 }
 
-@media screen and (min-width: 800px) {
-  .buddy {
-    transition: all 1s;
-  }
+.order {
+  order: 9;
+}
 
-  .puppy {
-    color: purple;
-  }
+.order {
+  order: 10;
 }

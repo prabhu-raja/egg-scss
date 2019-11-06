@@ -1,14 +1,59 @@
-@mixin base {
-  color: red;
-  &:hover { color: green;}
-  &::after {
-    content: '?';
+%hero {
+  background: linear-gradient(red, white, blue);
+}
+
+%villain {
+  background: red;
+}
+
+@mixin character($type) {
+  height: 20px;
+  width: 20px;
+  @extend %#{$type};
+  @content;
+}
+
+
+.doc-ock {
+  @include character(villain) {
+    border: 1px solid green;
   }
 }
-.cool {
-  @include base();
+
+.cheetah {
+  @include character(villain)
 }
-.new { 
-  width: 20px;
-  @include base();
+
+.enchantress {
+  @include character(villain)
+}
+
+.captain-america {
+  @include character(hero)
+}
+
+.medusa {
+  @include character(hero)
+}
+
+.she-hulk {
+  @include character(hero)
+}
+
+@mixin make-transitions($transitions...) {
+  transition: $transitions;
+}
+
+@media screen and (min-width: 800px) {
+  .buddy {
+    @include make-transitions(all 1s);
+  }
+
+  %puppy {
+    color: purple;
+  }
+
+  .puppy {
+    @extend %puppy;
+  }
 }

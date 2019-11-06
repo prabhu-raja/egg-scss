@@ -23,29 +23,55 @@
 /*
   * EXTENDS 🍟
 */
-.cool {
-  color: red;
+.captain-america,
+.medusa,
+.she-hulk {
+  background: linear-gradient(red, white, blue);
 }
 
-.cool:hover {
-  color: green;
+.doc-ock,
+.cheetah,
+.enchantress {
+  background: red;
 }
 
-.cool::after {
-  content: '?';
-}
-
-.new {
+.doc-ock {
+  height: 20px;
   width: 20px;
-  color: red;
+  border: 1px solid green;
 }
 
-.new:hover {
-  color: green;
+.cheetah {
+  height: 20px;
+  width: 20px;
 }
 
-.new::after {
-  content: '?';
+.enchantress {
+  height: 20px;
+  width: 20px;
 }
 
+.captain-america {
+  height: 20px;
+  width: 20px;
+}
 
+.medusa {
+  height: 20px;
+  width: 20px;
+}
+
+.she-hulk {
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  .buddy {
+    transition: all 1s;
+  }
+
+  .puppy {
+    color: purple;
+  }
+}

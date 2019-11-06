@@ -12,5 +12,6 @@
     "editorCursor.foreground": "#f7f306"
   },
   "editor.cursorBlinking": "expand",
-  "editor.cursorWidth": 5
+  "editor.cursorWidth": 5,
+  "editor.formatOnSave": true
 }

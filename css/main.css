@@ -27,42 +27,42 @@
 /*
  * ITERATE WITH FOR
  */
-.order {
-  order: 1;
+.col-1 {
+  width: 100%;
 }
 
-.order {
-  order: 2;
+.col-2 {
+  width: 50%;
 }
 
-.order {
-  order: 3;
+.col-3 {
+  width: 33.33333%;
 }
 
-.order {
-  order: 4;
+.col-4 {
+  width: 25%;
 }
 
-.order {
-  order: 5;
+.col-5 {
+  width: 20%;
 }
 
-.order {
-  order: 6;
+.col-6 {
+  width: 16.66667%;
 }
 
-.order {
-  order: 7;
+.col-7 {
+  width: 14.28571%;
 }
 
-.order {
-  order: 8;
+.col-8 {
+  width: 12.5%;
 }
 
-.order {
-  order: 9;
+.col-9 {
+  width: 11.11111%;
 }
 
-.order {
-  order: 10;
+.col-10 {
+  width: 10%;
 }

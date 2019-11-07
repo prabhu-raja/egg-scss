@@ -1,5 +1,5 @@
 @for $i from 1 through 10 {
-  .order {
-    order: $i;
+  .col-#{$i} {
+    width: 100% / $i;
   }
 }

@@ -27,42 +27,42 @@
 /*
  * ITERATE WITH FOR
  */
-.col-1 {
-  width: 100%;
+.mt-1rem {
+  margin-top: 1rem;
 }
 
-.col-2 {
-  width: 50%;
+.mt-2rem {
+  margin-top: 2rem;
 }
 
-.col-3 {
-  width: 33.33333%;
+.mt-3rem {
+  margin-top: 3rem;
 }
 
-.col-4 {
-  width: 25%;
+.mt-4rem {
+  margin-top: 4rem;
 }
 
-.col-5 {
-  width: 20%;
+.mt-5rem {
+  margin-top: 5rem;
 }
 
-.col-6 {
-  width: 16.66667%;
+.mt-6rem {
+  margin-top: 6rem;
 }
 
-.col-7 {
-  width: 14.28571%;
+.mt-7rem {
+  margin-top: 7rem;
 }
 
-.col-8 {
-  width: 12.5%;
+.mt-8rem {
+  margin-top: 8rem;
 }
 
-.col-9 {
-  width: 11.11111%;
+.mt-9rem {
+  margin-top: 9rem;
 }
 
-.col-10 {
-  width: 10%;
+.mt-10rem {
+  margin-top: 10rem;
 }

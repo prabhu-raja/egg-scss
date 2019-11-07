@@ -1,5 +1,7 @@
 @for $i from 1 through 10 {
-  .col-#{$i} {
-    width: 100% / $i;
+
+  // Margin Top classes
+  .mt-#{$i}rem {
+    margin-top: #{$i}rem;
   }
 }

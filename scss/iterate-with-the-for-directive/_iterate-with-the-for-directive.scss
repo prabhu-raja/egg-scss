@@ -1,7 +1,10 @@
 @for $i from 1 through 10 {
   $value: $i * 0.5;
+  // Dynamic class name
+  $hasDecimal: floor($value) !=$value;
 
-  // Margin Top classes
+  @debug 👍 - floor($value);
+
   .mt-#{$i}rem {
     margin-top: #{$value}rem;
   }

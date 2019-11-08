@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*
 * PARTIALS
 .red { color: red; }
@@ -26,32 +27,42 @@
 /*
  * ITERATE WITH FOR
  */
-.mt-1rem {
-  margin-top: 0.5rem; }
+.mt-half-0pt5 {
+  margin-top: 0.5rem;
+}
 
-.mt-2rem {
-  margin-top: 1rem; }
+.mt-half-1 {
+  margin-top: 1rem;
+}
 
-.mt-3rem {
-  margin-top: 1.5rem; }
+.mt-half-1pt5 {
+  margin-top: 1.5rem;
+}
 
-.mt-4rem {
-  margin-top: 2rem; }
+.mt-half-2 {
+  margin-top: 2rem;
+}
 
-.mt-5rem {
-  margin-top: 2.5rem; }
+.mt-half-2pt5 {
+  margin-top: 2.5rem;
+}
 
-.mt-6rem {
-  margin-top: 3rem; }
+.mt-half-3 {
+  margin-top: 3rem;
+}
 
-.mt-7rem {
-  margin-top: 3.5rem; }
+.mt-half-3pt5 {
+  margin-top: 3.5rem;
+}
 
-.mt-8rem {
-  margin-top: 4rem; }
+.mt-half-4 {
+  margin-top: 4rem;
+}
 
-.mt-9rem {
-  margin-top: 4.5rem; }
+.mt-half-4pt5 {
+  margin-top: 4.5rem;
+}
 
-.mt-10rem {
-  margin-top: 5rem; }
+.mt-half-5 {
+  margin-top: 5rem;
+}

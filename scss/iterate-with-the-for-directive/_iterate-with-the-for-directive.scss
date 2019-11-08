@@ -2,10 +2,12 @@
   $value: $i * 0.5;
   // Dynamic class name
   $hasDecimal: floor($value) !=$value;
+  // if(condition, if true, if false)
+  $class-name: if($hasDecimal, #{$value - 0.5}pt5, $value);
 
   @debug 👍 - floor($value);
 
-  .mt-#{$i}rem {
+  .mt-half-#{$class-name} {
     margin-top: #{$value}rem;
   }
 }

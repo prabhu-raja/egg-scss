@@ -1,7 +1,8 @@
 @for $i from 1 through 10 {
+  $value: $i * 0.5;
 
   // Margin Top classes
   .mt-#{$i}rem {
-    margin-top: #{$i}rem;
+    margin-top: #{$value}rem;
   }
 }

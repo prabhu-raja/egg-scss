@@ -1,13 +1,13 @@
-@for $i from 1 through 10 {
-  $value: $i * 0.5;
-  // Dynamic class name
-  $hasDecimal: floor($value) !=$value;
-  // if(condition, if true, if false)
-  $class-name: if($hasDecimal, #{$value - 0.5}pt5, $value);
+@mixin light-color-class($color, $color-name, $i) {
+  $color-value: if($i==1, $color, lighten($color, 3% * $i));
 
-  @debug 👍 - floor($value);
-
-  .mt-half-#{$class-name} {
-    margin-top: #{$value}rem;
+  .#{$color-name}#{$i} {
+    color: $color-value;
   }
+}
+
+@for $i from 1 through 10 {
+  @include light-color-class(#ba0000, passion, $i);
+  @include light-color-class(rebeccapurple, empathy, $i);
+  @include light-color-class(blue, cool-kid, $i);
 }

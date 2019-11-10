@@ -1,0 +1,20 @@
+.container {
+  border: solid 2px red;
+  margin: 0.5rem auto;
+  font-size: 2rem;
+
+  .logo {
+    height: 250px;
+    width: 250px;
+    margin: 0.5rem auto;
+  }
+}
+
+@each $hero in wonder-woman,
+spiderman,
+batman,
+superman {
+  .#{$hero}-logo {
+    background-image: url('../../images/#{$hero}-logo.gif');
+  }
+}

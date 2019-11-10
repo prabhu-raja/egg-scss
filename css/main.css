@@ -26,123 +26,35 @@
 */
 /*
  * ITERATE WITH FOR
+ @import 'iterate-with-the-for-directive/iterate-with-the-for-directive'
  */
-.passion1 {
-  color: #ba0000;
+/*
+ * ITERATE WITH EACH
+ */
+.container {
+  border: solid 2px red;
+  margin: 0.5rem auto;
+  font-size: 2rem;
 }
 
-.empathy1 {
-  color: rebeccapurple;
+.container .logo {
+  height: 250px;
+  width: 250px;
+  margin: 0.5rem auto;
 }
 
-.cool-kid1 {
-  color: blue;
+.wonder-woman-logo {
+  background-image: url("../../images/wonder-woman-logo.gif");
 }
 
-.passion2 {
-  color: #d90000;
+.spiderman-logo {
+  background-image: url("../../images/spiderman-logo.gif");
 }
 
-.empathy2 {
-  color: #753bb0;
+.batman-logo {
+  background-image: url("../../images/batman-logo.gif");
 }
 
-.cool-kid2 {
-  color: #1f1fff;
-}
-
-.passion3 {
-  color: #e80000;
-}
-
-.empathy3 {
-  color: #7d3ebb;
-}
-
-.cool-kid3 {
-  color: #2e2eff;
-}
-
-.passion4 {
-  color: #f70000;
-}
-
-.empathy4 {
-  color: #8547c2;
-}
-
-.cool-kid4 {
-  color: #3d3dff;
-}
-
-.passion5 {
-  color: #ff0808;
-}
-
-.empathy5 {
-  color: #8c53c6;
-}
-
-.cool-kid5 {
-  color: #4d4dff;
-}
-
-.passion6 {
-  color: #ff1717;
-}
-
-.empathy6 {
-  color: #945ec9;
-}
-
-.cool-kid6 {
-  color: #5c5cff;
-}
-
-.passion7 {
-  color: #ff2626;
-}
-
-.empathy7 {
-  color: #9c6acd;
-}
-
-.cool-kid7 {
-  color: #6b6bff;
-}
-
-.passion8 {
-  color: #ff3535;
-}
-
-.empathy8 {
-  color: #a375d1;
-}
-
-.cool-kid8 {
-  color: #7a7aff;
-}
-
-.passion9 {
-  color: #ff4545;
-}
-
-.empathy9 {
-  color: #ab81d5;
-}
-
-.cool-kid9 {
-  color: #8a8aff;
-}
-
-.passion10 {
-  color: #ff5454;
-}
-
-.empathy10 {
-  color: #b38cd9;
-}
-
-.cool-kid10 {
-  color: #9999ff;
+.superman-logo {
+  background-image: url("../../images/superman-logo.gif");
 }

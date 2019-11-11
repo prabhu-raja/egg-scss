@@ -13,5 +13,6 @@
   },
   "editor.cursorBlinking": "expand",
   "editor.cursorWidth": 2,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true
 }

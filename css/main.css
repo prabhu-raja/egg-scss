@@ -44,17 +44,47 @@
 }
 
 .wonder-woman-logo {
-  background-image: url("../../images/wonder-woman-logo.gif");
+  background-image: url('../../images/wonder-woman-logo.gif');
 }
 
 .spiderman-logo {
-  background-image: url("../../images/spiderman-logo.gif");
+  background-image: url('../../images/spiderman-logo.gif');
 }
 
 .batman-logo {
-  background-image: url("../../images/batman-logo.gif");
+  background-image: url('../../images/batman-logo.gif');
 }
 
 .superman-logo {
-  background-image: url("../../images/superman-logo.gif");
+  background-image: url('../../images/superman-logo.gif');
+}
+
+@media only screen and (min-width: 375px) {
+  .container-width {
+    width: 375px;
+  }
+
+  .container-width::before {
+    content: 'sm';
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container-width {
+    width: 768px;
+  }
+
+  .container-width::before {
+    content: 'md';
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container-width {
+    width: 1200px;
+  }
+
+  .container-width::before {
+    content: 'lg';
+  }
 }
